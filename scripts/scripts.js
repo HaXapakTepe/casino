@@ -234,7 +234,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			const text = parentItem
 				.querySelector('.filter__selected-text')
 				.textContent.trim()
-			console.log(text)
 
 			sortLabels.forEach(function (label) {
 				const labelText = label.querySelector('.label__text').textContent.trim()
